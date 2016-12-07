@@ -13,8 +13,7 @@ class TestController extends Controller
     // start of index
     public function index()
     {
-
-
+        
         return view('welcome');
     
     }// end of index
