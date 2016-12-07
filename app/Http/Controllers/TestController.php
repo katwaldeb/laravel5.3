@@ -14,7 +14,7 @@ class TestController extends Controller
     public function index()
     {
 
-        
+        $a = 's';
         return view('welcome');
     
     }// end of index
