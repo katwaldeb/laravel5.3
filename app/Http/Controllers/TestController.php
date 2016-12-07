@@ -9,13 +9,14 @@ use Illuminate\Support\Facades\Redis;
 class TestController extends Controller
 {
     //
-    
+
+
     // start of index
     public function index()
     {
 
-        $a = 's';
         
+        $a = 's';
         return view('welcome');
     
     }// end of index
